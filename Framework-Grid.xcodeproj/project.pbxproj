@@ -14,6 +14,10 @@
 		52ACED4C2C4CF6940070DAE4 /* Framework_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACED4B2C4CF6940070DAE4 /* Framework_GridTests.swift */; };
 		52ACED562C4CF6940070DAE4 /* Framework_GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACED552C4CF6940070DAE4 /* Framework_GridUITests.swift */; };
 		52ACED582C4CF6940070DAE4 /* Framework_GridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACED572C4CF6940070DAE4 /* Framework_GridUITestsLaunchTests.swift */; };
+		52ACED652C4CF6B40070DAE4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACED642C4CF6B40070DAE4 /* Framework.swift */; };
+		52DAAB952C4D10E900E0B488 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAAB942C4D10E900E0B488 /* FrameworkDetailView.swift */; };
+		52DAAB972C4D13A000E0B488 /* FrameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAAB962C4D13A000E0B488 /* FrameViewModel.swift */; };
+		52DAAB992C4D1B4D00E0B488 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAAB982C4D1B4D00E0B488 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		52ACED512C4CF6940070DAE4 /* Framework-GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Framework-GridUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ACED552C4CF6940070DAE4 /* Framework_GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_GridUITests.swift; sourceTree = "<group>"; };
 		52ACED572C4CF6940070DAE4 /* Framework_GridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_GridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52ACED642C4CF6B40070DAE4 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		52DAAB942C4D10E900E0B488 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		52DAAB962C4D13A000E0B488 /* FrameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModel.swift; sourceTree = "<group>"; };
+		52DAAB982C4D1B4D00E0B488 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,12 @@
 			children = (
 				52ACED3A2C4CF6910070DAE4 /* Framework_GridApp.swift */,
 				52ACED3C2C4CF6910070DAE4 /* ContentView.swift */,
+				52DAAB942C4D10E900E0B488 /* FrameworkDetailView.swift */,
+				52DAAB962C4D13A000E0B488 /* FrameViewModel.swift */,
+				52ACED642C4CF6B40070DAE4 /* Framework.swift */,
 				52ACED3E2C4CF6940070DAE4 /* Assets.xcassets */,
 				52ACED402C4CF6940070DAE4 /* Preview Content */,
+				52DAAB982C4D1B4D00E0B488 /* SafariView.swift */,
 			);
 			path = "Framework-Grid";
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DAAB952C4D10E900E0B488 /* FrameworkDetailView.swift in Sources */,
 				52ACED3D2C4CF6910070DAE4 /* ContentView.swift in Sources */,
+				52ACED652C4CF6B40070DAE4 /* Framework.swift in Sources */,
 				52ACED3B2C4CF6910070DAE4 /* Framework_GridApp.swift in Sources */,
+				52DAAB992C4D1B4D00E0B488 /* SafariView.swift in Sources */,
+				52DAAB972C4D13A000E0B488 /* FrameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
